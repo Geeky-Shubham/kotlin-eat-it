@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Eat It</string>
+
+    <string name="txt_slogan_title">Kotlin Eat It</string>
+    <string name="txt_slogan_desc">Eat this thing or you will getting fat like gabe newell but he got a lot of money by the way so you cannot judge him</string>
+
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_sign_in">Sign In</string>
+
+    <string name="et_hint_phone_number">Phone Number</string>
+    <string name="txt_et_phone_number">081226836303</string>
+
+    <string name="et_hint_password">Password</string>
+    <string name="txt_et_password">jamilalrasyid</string>
+</resources>
