@@ -7,12 +7,12 @@
     android:background="@drawable/kotlin_eatit_main"
     tools:context="me.jamilalrasyidis.eatit.MainActivity">
 
-    <!--<View
+    <View
         android:background="@color/colorBlack"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>-->
+        android:layout_height="match_parent"/>
 
-    <!--<LinearLayout
+    <LinearLayout
         android:orientation="vertical"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
@@ -45,34 +45,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <info.hoang8f.widget.FButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_sign_up"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
             android:text="@string/btn_sign_up"
-            app:buttonColor="@color/colorPrimary"
-            android:textColor="@color/colorWhite"
-            app:shadowColor="@color/colorBlack"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"
-            app:cornerRadius="4dp"/>
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorWhite" />
 
-        <info.hoang8f.widget.FButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_sign_in"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="8dp"
             android:text="@string/btn_sign_in"
-            app:buttonColor="@color/colorAccent"
+            android:layout_margin="8dp"
             android:textColor="@color/colorWhite"
-            app:shadowColor="@color/colorBlack"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"
-            app:cornerRadius="4dp"/>
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
-    </LinearLayout>-->
+    </LinearLayout>
 
 </RelativeLayout>

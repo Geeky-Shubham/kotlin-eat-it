@@ -12,4 +12,8 @@
 
     <string name="et_hint_password">Password</string>
     <string name="txt_et_password">jamilalrasyid</string>
+
+    <string name="rgt_hint_phone_number">Phone Number</string>
+    <string name="rgt_hint_name">Name</string>
+    <string name="rgt_hint_password">Password</string>
 </resources>
